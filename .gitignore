@@ -1,4 +1,4 @@
-__tests__/
+tests/
 __pycache__/
 build/
 dist/
