@@ -1,2 +1,5 @@
 __tests__/
 __pycache__/
+build/
+dist/
+*.egg-info

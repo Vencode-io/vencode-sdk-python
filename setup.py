@@ -1,11 +1,11 @@
-from setuptoools import setup, find_packages
+from setuptools import setup, find_packages
 
 VERSION = '0.0.1'
 DESCRIPTION = 'Vencode API SDK wrapper for Python'
 LONG_DESCRIPTION = 'Vencode API SDK wrapper for Python'
 
 setup(
-    name="vencode",
+    name="vencode_sdk",
     version=VERSION,
     author="Vencode",
     author_email="hello@vencode.io",

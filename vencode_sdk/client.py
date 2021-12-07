@@ -1,8 +1,8 @@
 import json
 import sseclient
 import time
-from vencode import api
-from vencode import Access, Notify, Credentials, CreateEncodeJobOptions
+from . import api
+from . import Access, Notify, Credentials, CreateEncodeJobOptions
 
 BASE_URL = 'https://api.vencode.io/api'
 
