@@ -36,3 +36,23 @@ client = Client(options=Options(
 - You're ready to go!
 
 ---
+
+### Create Job
+```py
+from vencode_sdk.options import CreateEncodeJobOptions, Encode, Input, Output
+
+outputs = []
+outputs.append(Output(
+    key="path/to/video.mp4",
+    encode=Encode(
+        format="mp4"
+    ),
+))
+
+job = client.encode(encode=CreateEncodeJobOptions(
+    input=Input(path="https://url-to-video/video.mp4"),
+    outputs=outputs
+))
+
+print(job)
+```
